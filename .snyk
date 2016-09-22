@@ -1,0 +1,22 @@
+version: v1.5.0
+ignore: {}
+patch:
+  'npm:negotiator:20160616':
+    - socket.io > engine.io > accepts > negotiator:
+        patched: '2016-09-22T03:11:49.189Z'
+  'npm:request:20160119':
+    - youtube-api > googleapis > google-auth-library > request:
+        patched: '2016-09-22T03:11:49.189Z'
+  'npm:tough-cookie:20160722':
+    - youtube-api > googleapis > request > tough-cookie:
+        patched: '2016-09-22T03:11:49.189Z'
+  'npm:uglify-js:20151024':
+    - require > uglify-js:
+        patched: '2016-09-22T03:11:49.189Z'
+    - jade > transformers > uglify-js:
+        patched: '2016-09-22T03:11:49.189Z'
+  'npm:ws:20160624':
+    - socket.io > engine.io > ws:
+        patched: '2016-09-22T03:11:49.189Z'
+    - socket.io > socket.io-client > engine.io-client > ws:
+        patched: '2016-09-22T03:11:49.189Z'

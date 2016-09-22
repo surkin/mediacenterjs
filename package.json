@@ -17,7 +17,9 @@
     "url": "http://github.com/jansmolders86/mediacenterjs.git"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "bin": {
     "mediacenterjs": "./server.js"
@@ -65,7 +67,8 @@
     "walk": "^2.0.0",
     "wget": "^0.0.1",
     "winston": "^1.0.1",
-    "youtube-api": "^1.1.0"
+    "youtube-api": "^2.0.0",
+    "snyk": "^1.19.1"
   },
   "bugs": {
     "url": "https://github.com/jansmolders86/mediacenterjs/issues"
@@ -80,5 +83,6 @@
     {
       "type": "GPL-3.0"
     }
-  ]
+  ],
+  "snyk": true
 }
