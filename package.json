@@ -65,7 +65,7 @@
     "walk": "^2.0.0",
     "wget": "^0.0.1",
     "winston": "^1.0.1",
-    "youtube-api": "^1.1.0"
+    "youtube-api": "^2.0.0"
   },
   "bugs": {
     "url": "https://github.com/jansmolders86/mediacenterjs/issues"
