@@ -47,7 +47,7 @@
     "node-ffprobe": "^1.2.2",
     "node-schedule": "^0.2.9",
     "npm": "^2.14.3",
-    "open": "^0.0.5",
+    "open": "^6.0.0",
     "redis": "^1.0.0",
     "request": "^2.51.0",
     "require": "^2.4.20",
